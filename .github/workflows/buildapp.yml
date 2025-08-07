@@ -154,6 +154,7 @@ jobs:
           UYOU_VERSION: ${{ inputs.uyou_version }}
           BUNDLE_ID: ${{ inputs.bundle_id }}
           APP_NAME: ${{ inputs.app_name }}
+          SIDELOAD: 1
 
       - name: Upload Artifact
         if: ${{ inputs.upload_artifact }}
